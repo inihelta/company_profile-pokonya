@@ -27,6 +27,7 @@ a {
     background-color: white;
     padding: 15px;
     box-sizing: border-box;
+    border-radius: 8px;
 }
 
 .box-login h2 {
@@ -38,14 +39,23 @@ a {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
     box-sizing: border-box;
 }
 
 .btn {
     padding: 8px 20px;
     background-color: salmon;
+    border-radius: 6px;
     color: #fff;
     border: none;
     cursor: pointer;
     width: 100%;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(231, 125, 113);
+    transform: scale(1.01);
 }
