@@ -28,10 +28,10 @@
         <?php
         include('db.php');
         if (isset($_POST['submit'])) {
-            $nama = $_POST['nama'];
-            $alamat = $_POST['alamat'];
-            $telpon = $_POST['telpon'];
-            $email = $_POST['email'];
+            $nama     = $_POST['nama'];
+            $alamat   = $_POST['alamat'];
+            $telpon   = $_POST['telpon'];
+            $email    = $_POST['email'];
             $username = $_POST['user'];
             $password = $_POST['pass'];
 

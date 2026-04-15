@@ -16,7 +16,7 @@ h1 {
     text-align: center;
 }
 
-.table1 {
+.table1 tr th {
     background: #35a9db;
     color: #fff;
     font-weight: normal;
