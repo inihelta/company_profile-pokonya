@@ -40,13 +40,13 @@
                             <td><?php echo $row['category_name']; ?></td>
                             <td>
                                 <a href="kategori_edit.php?id=<?php echo $row['category_id']; ?>">Edit</a> |
-                                <a href="kategori_hapus.php?id=<?php echo $row['category_id']; ?>" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
+                                <a href="hapus_proses.php?idk=<?php echo $row['category_id']; ?>" onclick="return confirm('Yakin ingin hapus?')">Hapus</a>
                             </td>
                         </tr>
                     <?php }
                 } else { ?>
-                    <tr></tr>
-                    <td colspan="3">Tidak ada data</td>
+                    <tr>
+                        <td colspan="3">Tidak ada data</td>
                     </tr>
                 <?php } ?>
             </table>
