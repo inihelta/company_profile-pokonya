@@ -45,7 +45,7 @@
                             <td><?php echo $row['product_name'] ?></td>
                             <td><?php echo $row['product_description'] ?></td>
                             <td>Rp. <?php echo number_format($row['product_price']) ?></td>
-                            <td><a href="produk/<?php echo $row['product_image'] ?>" target="_blank"> <img src="../produk/<?php echo $row['product_image'] ?>" width="50px"> </a></td>
+                            <td><a href="../produk/<?php echo $row['product_image'] ?>" target="_blank"> <img src="../produk/<?php echo $row['product_image'] ?>" width="50px"> </a></td>
                             <td><?php echo ($row['product_status'] == 0) ? 'Tidak Aktif' : 'Aktif'; ?></td>
                             <td>
                                 <a href="produk_edit.php?id=<?php echo $row['product_id'] ?>">Edit</a> || <a href="hapus_proses.php?idp=<?php echo $row['product_id'] ?>" onclick="return confirm('Yakin ingin hapus ?')">Hapus</a>
