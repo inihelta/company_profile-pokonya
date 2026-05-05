@@ -10,7 +10,9 @@ $a = mysqli_fetch_object($kontak);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Just's Company</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -52,7 +54,7 @@ $a = mysqli_fetch_object($kontak);
                 ?>
                         <a href="product.php?kat=<?php echo $k['category_id'] ?>">
                             <div class="col-5">
-                                <img src="#" width="20px" alt="error" style="margin-bottom: 5px;">
+                                <img src="img/categories.png" width="20px" alt="error" style="margin-bottom: 5px;">
                                 <p><?php echo $k['category_name'] ?></p>
                             </div>
                         </a>
